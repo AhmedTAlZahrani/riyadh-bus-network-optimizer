@@ -318,4 +318,3 @@ class RiyadhDataGenerator:
             "od_demand": od_demand,
         }
 
-

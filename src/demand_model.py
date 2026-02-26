@@ -244,4 +244,3 @@ class DemandPredictor:
         self.model = data["model"]
         self.feature_names = data["features"]
         print(f"Demand model loaded from {path}")
-

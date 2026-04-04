@@ -30,3 +30,19 @@ routes = optimizer.optimize(n_generations=100)
 # or launch the dashboard
 streamlit run app.py
 ```
+
+## Project Structure
+
+```
+src/
+    data_generator.py     Synthetic stop, station, and population data
+    demand_model.py       XGBoost demand prediction
+    route_optimizer.py    DEAP genetic algorithm route optimization
+    network_graph.py      Graph representation of bus network
+    evaluation.py         Coverage and travel time metrics
+app.py                    Streamlit dashboard
+```
+
+## License
+
+MIT License
